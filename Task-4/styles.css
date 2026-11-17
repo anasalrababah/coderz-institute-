@@ -1,0 +1,37 @@
+h1 {
+    SIZE: 30PX;
+    COLOR: #290808;
+    background-color: #c2c0c0;
+    FONT-FAMILY: 'Cairo', sans-serif;
+    TEXT-ALIGN: rtl;
+}
+p {
+    SIZE: 20PX;
+    COLOR: #262525;
+    FONT-FAMILY: 'Cairo', sans-serif;
+    TEXT-ALIGN: rtl;
+}   
+h2 {
+    SIZE: 25PX;
+    COLOR: #463a09;
+    FONT-FAMILY: 'Cairo', sans-serif;
+    TEXT-ALIGN: rtl;
+}   
+.card {
+    SIZE: 50PX;
+    COLOR: #7e1d1d;
+    FONT-FAMILY: 'Cairo', sans-serif;
+    TEXT-ALIGN: center;
+}
+ a figcaption {
+    SIZE: 20PX;
+    COLOR: #7e1d1d;
+    FONT-FAMILY: 'Cairo', sans-serif;
+    TEXT-ALIGN: center;
+}   
+figure {
+    SIZE: 20PX;
+    COLOR: #7e1d1d;
+    FONT-FAMILY: 'Cairo', sans-serif;
+    TEXT-ALIGN: center;
+}
