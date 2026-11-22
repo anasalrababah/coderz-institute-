@@ -1,0 +1,48 @@
+﻿Bug 1: Heading Colors**
+
+Problem: The heading colors were not showing.
+
+Cause: I wrote the variable name incorrectly as brnad.
+
+Fix:
+css
+color: var(--brand);
+
+
+Test: I changed the variable color and noticed that both headings changed color. Then I restored the original color.
+
+
+
+Bug 2: Card Background
+
+Problem: The card background was not showing.
+
+Cause: I forgot the dot before course-card.
+
+Fix:
+css
+.course-card {
+    background: #eef5ff;
+}
+
+
+Test: I checked that the background appeared only on the card.
+
+
+
+**Bug 3: Heading Size**
+
+Problem: The course heading was larger than required.
+
+Cause: I used `em` instead of rem.
+
+Fix:
+css
+font-size: 1.5rem;
+
+
+Test:
+
+Before the change: 30px
+
+After the change: 24px
