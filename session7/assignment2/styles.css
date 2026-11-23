@@ -1,0 +1,111 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background: #F5F3FF;
+}
+
+/* Main Container */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Subscription Card */
+.subscription-card {
+    width: 100%;
+    max-width: 450px;
+    background: #FFFFFF;
+    border: 1px solid #DDD6FE;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(109, 40, 217, 0.12);
+    text-align: center;
+}
+
+/* Badge */
+.badge {
+    display: inline-block;
+    background: #EDE9FE;
+    color: #6D28D9;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Title */
+.title {
+    color: #1F2937;
+    font-size: 27px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Price */
+.price {
+    color: #6D28D9;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+        text-align: center;
+
+}
+
+/* Price Note */
+.price-note {
+    color: #6B7280;
+    font-size: 14px;
+        text-align: center;
+
+}
+
+/* Divider */
+hr {
+    border: none;
+    border-top: 1px solid #DDD6FE;
+    margin: 25px 0;
+}
+
+/* Features */
+.features {
+    color: #1F2937;
+    padding-right: 22px;
+    line-height: 2.2;
+    margin-bottom: 25px;
+        text-align: center;
+
+}
+
+/* Booking Button */
+.booking-button {
+    display: block;
+    background: #6D28D9;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover */
+.booking-button:hover {
+    opacity: 0.85;
+}
