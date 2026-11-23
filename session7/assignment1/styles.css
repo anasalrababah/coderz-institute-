@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f5f8;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.workshop-card {
+    width: 100%;
+    max-width: 475px;
+    background: white;
+    border: 2px solid #17677d;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: right;
+}
+
+.status {
+    display: inline-block;
+    background: #e3f8e8;
+    color: #278044;
+    padding: 8px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #17677d;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.description {
+    color: #687985;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.primary {
+    background: #17677d;
+    color: white;
+}
+
+.secondary {
+    border: 2px solid #17677d;
+    color: #17677d;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.note {
+    color: #687985;
+    margin-top: 50p;
+    font-size: 15px;
+}
