@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #F4F7F8;
+    color: #183B42;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 12px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logo {
+    color: #12546C;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #183B42;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #64748B;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 12px;
+    padding: 20px;
+
+    flex: 1 1 250px;
+    min-width: 0;
+    text-align: right;
+}
+
+.badge {
+    display: inline-block;
+    background: #E0F2F1;
+    color: #12546C;
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin: 15px 0;
+}
+
+.card p {
+    color: #64748B;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: block;
+    background: #12546C;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 9px;
+}
